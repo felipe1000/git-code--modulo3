@@ -8,8 +8,12 @@ $pessoa2 = new Pessoa("Luciana",39);
 echo $pessoa1->Correr(100);
 
 require_once "produto.php";
-require_once "tenis.php";
+require_once "TenisAdidas.php";
 
-$produto1 = new Tenis();
-$produto1->nome
+$produto1 = new TenisAdidas();
+$produto1->getCor();
+
+$tenis2 = new SapaTenis();
+$tenis2->getCor();
+$teni2->getTamanho();
  ?>

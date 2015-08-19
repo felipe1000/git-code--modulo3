@@ -3,7 +3,7 @@
 /**
 * 
 */
-class Produto	 extends AnotherClass
+class Produto
 {
 	public $nome;
 	public $descricao;
